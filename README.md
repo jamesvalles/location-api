@@ -5,33 +5,18 @@ Basic API application using Spring Boot
 by James Valles
 --------------
 
-**GET** posts/
+Location API application using Spring Boot
 
-Returns all posts
+**GET** location/zipcode - Returns specific U.S. location
 
-**GET** posts/id 
-
-Returns specific post
-
-**POST** posts/ 
-
-Adds a new post
-
-**DELETE** posts/id 
-
-Removes specific post
-
-**PUT** posts/id 
-
-Updates post
-
->SAMPLE JSON
+**SAMPLE JSON RESPONSE**
 
 {
-"zipcode": 1,
-"city": "Sample Title",
-"state": "Body text goes here"
+zipcode: 60102,
+city: "Algonquin",
+state: "Illinois",
+abbrevation: "IL",
+county: "McHenry",
+lat: 42.1641,
+longitude: -88.3064
 }
-
-Homepage uses Bootstrap cover template by @mdo
-Runs on MYSQL Database as set in application.properties
