@@ -30,7 +30,7 @@ public class Location {
   @Column(name="Lat")
   private double lat;
 
-  @Column(name="Long")
+  @Column(name="Longitude")
   private double longitude;
 
   public Location(){

@@ -48,6 +48,13 @@
       </exclusions>
     </dependency>
 
+
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
     <dependency>
       <groupId>org.apache.tomcat.embed</groupId>
